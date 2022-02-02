@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "jiadklkn_dcs",
+    "password": "dcsclasses@123",
+    "database": "jiadklkn_dcs",
+    "host": "103.212.121.53",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "jiadklkn_dcs",
+    "password": "dcsclasses",
+    "database": "jiadklkn_dcs",
+    "host": "103.212.121.53",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "jiadklkn_dcs",
+    "password": "dcsclasses@123",
+    "database": "jiadklkn_dcs",
+    "host": "103.212.121.53",
+    "dialect": "mysql"
+  }
+}
