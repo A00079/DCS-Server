@@ -48,7 +48,7 @@ module.exports = {
       res.status(201).json({
         status: "success",
         message: "Registration Details Added",
-        result: "result"
+        result: result
       });
     } catch (error) {
       next(error);

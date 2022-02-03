@@ -4,17 +4,17 @@ var smtpTransport = require("nodemailer-smtp-transport");
 const sendMail = async ({ emailAddress, subject, emailBody }) => {
   var transporter = nodemailer.createTransport(
     smtpTransport({
-      service: "gmail",
-      host: "smtp.gmail.com",
+      host: "grow.herosite.pro",
+      port: "587",
       auth: {
-        user: "officialcodes007@gmail.com",
-        pass: "Ajaycodes@98924"
+        user: "teamdcs@dcsinstitute.in",
+        pass: "teamDCS@02"
       }
     })
   );
 
   const mailOptions = {
-    from: "sagaryc111@gmail.com", // sender address
+    from: "teamdcs@dcsinstitute.in", // sender address
     to: emailAddress, // list of receivers
     subject: subject, // Subject line
     text: emailBody
